@@ -17,11 +17,11 @@ jobs:
           distribution: temurin
           java-version: '8'
 
-      - name: Set up old Gradle 2.14 (required by ForgeGradle 1.x)
+      - name: Set up Gradle 4.4.1 (required by the patched ForgeGradle fork)
         run: |
-          curl -sL https://services.gradle.org/distributions/gradle-2.14-bin.zip -o /tmp/gradle.zip
+          curl -sL https://services.gradle.org/distributions/gradle-4.4.1-bin.zip -o /tmp/gradle.zip
           unzip -q /tmp/gradle.zip -d /tmp
-          echo "/tmp/gradle-2.14/bin" >> $GITHUB_PATH
+          echo "/tmp/gradle-4.4.1/bin" >> $GITHUB_PATH
 
       - name: Build mod jar
         run: gradle build --no-daemon --stacktrace
