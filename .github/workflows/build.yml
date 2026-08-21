@@ -23,9 +23,6 @@ jobs:
           unzip -q /tmp/gradle.zip -d /tmp
           echo "/tmp/gradle-2.14/bin" >> $GITHUB_PATH
 
-      - name: Setup Forge decompiled workspace
-        run: gradle setupDecompWorkspace --no-daemon --stacktrace
-
       - name: Build mod jar
         run: gradle build --no-daemon --stacktrace
 
