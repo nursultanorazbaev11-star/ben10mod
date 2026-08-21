@@ -1,0 +1,10 @@
+item.omnitrix.name=Омнитрикс
+item.dna_sample.name=Образец ДНК
+item.void_projector.name=Проектор Пустоты
+tile.null_void_stone.name=Камень Пустоты
+
+entity.bin10mod.dna_alien.name=ДНКалиен
+entity.bin10mod.highbreed.name=Хайбрид
+entity.bin10mod.vilgax.name=Вилгакс
+
+itemGroup.bin10mod=Ben 10 Mod

@@ -1,0 +1,10 @@
+item.omnitrix.name=Omnitrix
+item.dna_sample.name=DNA Sample
+item.void_projector.name=Null Void Projector
+tile.null_void_stone.name=Null Void Stone
+
+entity.bin10mod.dna_alien.name=DNAlien
+entity.bin10mod.highbreed.name=Highbreed
+entity.bin10mod.vilgax.name=Vilgax
+
+itemGroup.bin10mod=Ben 10 Mod

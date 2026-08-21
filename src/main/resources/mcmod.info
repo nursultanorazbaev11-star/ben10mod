@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "bin10mod",
+    "name": "Ben 10: Omniverse Mod",
+    "description": "Омнитрикс, 10 классических пришельцев, враждебные ДНКалиены и Хайбриды, босс Вилгакс и измерение Null Void.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Claude + you"],
+    "credits": "Ben 10 является собственностью Cartoon Network / Man of Action; этот мод — некоммерческий фан-контент.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
